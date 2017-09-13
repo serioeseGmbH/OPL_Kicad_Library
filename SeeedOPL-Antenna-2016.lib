@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# SMD_Built-in_Antenna_2.4GHz_9.5x2.1x1.0_
+#
+DEF SMD_Built-in_Antenna_2.4GHz_9.5x2.1x1.0_ AE 0 40 N N 1 F N
+F0 "AE" -75 75 50 H V R CNN
+F1 "SMD_Built-in_Antenna_2.4GHz_9.5x2.1x1.0_" -75 0 50 H V R CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *AN9520*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 0 100 0 -150 N
+P 3 0 1 10 50 100 0 -100 -50 100 N
+X A 1 0 -200 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
