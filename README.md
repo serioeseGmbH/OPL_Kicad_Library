@@ -15,12 +15,12 @@ This is the Kicad Library for OPL components. Hope it can be a helper for you.  
 $ sudo pip2.7 install kifield
 ```
 2. Extract fields from library into CSV file
-```bash
-$ kifield -x my_cool_new.lib -i fiels.csv
-```
+  ```bash
+  $ kifield -x my_cool_new.lib -i fiels.csv
+  ```
 3. Edit CSV file
- 1. Add `,SKU,MPN` to end of the table head (first line)
- 2. Add according values to end of each part in each line
+    1. Add `,SKU,MPN` to end of the table head (first line)
+    2. Add according values to end of each part in each line
 4. Insert fields from CSV file into the library
 ```bash
 $ kifield -i my_cool_new.lib -x fiels.csv
